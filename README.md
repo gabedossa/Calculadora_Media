@@ -1,3 +1,10 @@
+<h2>Tecnologias</h2>
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,java" />
+  </a>
+</p>
+</br>
 Calculadora de Média 📊
 Bem-vindo ao repositório da Calculadora de Média, um projeto desenvolvido durante o módulo da EBAC com a orientação de um tutor. Essa calculadora permite calcular médias de forma simples e intuitiva, utilizando tecnologias básicas de desenvolvimento web.
 
