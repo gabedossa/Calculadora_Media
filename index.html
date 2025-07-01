@@ -3,11 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de media</title>
+    <title>Calculadora de medias </title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Hello world</h1>
+    <header>
+        <img src="./img/Logo.png" alt="bloco de anotações">
+        <h1>Calculadora de médias</h1>
+    </header>
+    <form action="">
+        <input type="text" placeholder="Nome da atividade" required>
+        <input type="number" placeholder="Nota" min="0" max="10" required>
+        <button type="submit"> Adicionar + </button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    nome da tividade
+                </th>
+                <th>
+                    nota
+                </th>
+                <th>
+                    status
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Atividade I</td>
+                <td>7,0</td>
+                <td><img src="./img/Aprovado.png" alt="aprovado"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Média final</td>
+                <td>0,0</td>
+                <td>Aprovado</td>
+            </tr>
+        </tfoot>
+    </table>
     <script src="./script.js"></script>
 </body>
 </html>
